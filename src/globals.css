@@ -1,0 +1,10 @@
+:root {
+    --main: #6630b5;
+    --main-rgb: 102,48,181;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}

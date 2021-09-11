@@ -1,0 +1,16 @@
+@keyframes animation {
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
+.program_container{
+    margin-top: 30px;
+    height: 400px;
+    display: flex;
+    animation: animation 2s ease 1;
+}

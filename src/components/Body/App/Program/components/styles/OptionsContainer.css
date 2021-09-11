@@ -1,0 +1,8 @@
+.options_container {
+    height: 100%;
+    /* border: 1px solid black; */
+    width: 32px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(var(--main-rgb), .2) 0 10px 10px;
+}

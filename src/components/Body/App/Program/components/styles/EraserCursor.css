@@ -1,0 +1,11 @@
+.eraser_cursor{
+    position: absolute;
+    cursor: none;
+    width: 16px;
+    height: 16px;
+    background:rgba(0,0,0,.2);
+    border-radius: 50%;
+    border: 1px solid black;
+    pointer-events: none !important;
+    z-index: 3;
+}

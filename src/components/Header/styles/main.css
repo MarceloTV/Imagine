@@ -1,0 +1,10 @@
+header {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    box-shadow: rgba(var(--main-rgb),.5) 0 0 10px;
+}
+
+header h1 {
+    color: var(--main);
+}

@@ -1,0 +1,14 @@
+.option {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.option:hover {
+    background: rgba(var(--main-rgb), .5);
+}
+
+.bg {
+    background: rgba(var(--main-rgb), .5);
+}

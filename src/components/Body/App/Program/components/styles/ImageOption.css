@@ -1,0 +1,53 @@
+.img_opt_container {
+    width: 150px;
+    height: 180px;
+    border: 1px solid #000;
+    background: #fff;
+    position: absolute;
+    z-index: 1;
+    overflow: hidden;
+    cursor: none;
+}
+
+.img_opt_container * {
+    cursor: none;
+}
+
+.img_opt_container input[type="file"] {
+    display: none;
+}
+
+.img_opt_container .my_label {
+    margin-top: 10px !important;
+    width: 110px;
+    background: url(../../../../../../assets/add.png);
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    height: 60px;
+    border: solid 1px #000;
+    margin: auto;
+    display: block;
+}
+
+.img_opt_container input {
+    width: 90%;
+    margin: auto;
+    display: block;
+    margin-top: 5px;
+}
+
+
+.img_opt_container .the_image {
+    position: absolute;
+    left: 120%;
+}
+
+.img_opt_container .the_button {
+    border: none;
+    box-shadow: rgba(0, 0, 0, .3) 0 0 5px;
+    padding: 5px;
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+}

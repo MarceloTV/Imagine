@@ -1,0 +1,58 @@
+@keyframes fade {
+    from{
+        top: 40px;
+        opacity: 0;
+    }
+
+    to{
+        top: 0;
+        opacity: 1;
+    }
+}
+
+.home {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    color: var(--main);
+}
+
+.home h2 {
+    position: relative;
+    top: 40px;
+    opacity: 0;
+}
+
+.home p {
+    position: relative;
+    top: 40px;
+    opacity: 0;
+}
+
+.home button {
+    opacity: 0;
+    position: relative;
+    top: 40px;
+    border: var(--main) 1px solid;
+    color: #fff;
+    background: var(--main);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+}
+
+.home button:hover{
+    transition: all ease .3s;
+    color: var(--main);
+    background: #fff;
+}
+
+.fadeOpen {
+    transition: ease 2s all;
+    top: 0 !important;
+    opacity: 1 !important;
+}
