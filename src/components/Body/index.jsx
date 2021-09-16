@@ -5,7 +5,7 @@ import Home from "./App/Home";
 import Program from "./App/Program";
 
 function Body(props){
-    const [path,setPath] = useState("Home")
+    const [path,setPath] = useState("Home");
 
     return <main>
         {path === "Home" && <Home changuePath={() => setPath("Program")} />}

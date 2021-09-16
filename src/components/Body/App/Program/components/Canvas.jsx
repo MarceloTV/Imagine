@@ -48,7 +48,7 @@ function Canvas(props){
             onMouseOut={() => setShowCursor(false)}
         >
         <canvas 
-        ref={my_canvas} className="canvas" width="600" height="400" /* style={{
+        id="canvas" ref={my_canvas} className="canvas" width="600" height="400" /* style={{
         width: "600px",
         height: "400px"
         }} */></canvas>

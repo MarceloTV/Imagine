@@ -1,0 +1,25 @@
+.download {
+  height: 50px;
+  padding: 10px;
+  border: var(--main) 1px solid;
+  color: #fff;
+  background: var(--main);
+  border-radius: 10px;
+  align-self: center;
+}
+
+.download:hover {
+  transition: all ease 0.3s;
+  color: var(--main);
+  background: #fff;
+}
+
+.download_container {
+  position: relative;
+  margin-right: 10px;
+  align-self: center;
+}
+
+.download_container > a {
+  display: none;
+}
