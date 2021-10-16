@@ -1,11 +1,11 @@
 .canvas_container {
-    position: relative;
-    overflow: hidden;
-    margin: auto;
-    box-shadow: rgba(0,0,0,.3) 0 0 10px;
+  position: relative;
+  overflow: hidden;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 0 10px;
 }
 
 .canvas {
-    /* border: var(--main) 1px solid; */
-    cursor: none;
+  /* border: var(--main) 1px solid; */
+  cursor: none;
 }
